@@ -1,40 +1,26 @@
-<!dochtml>
-    <html >
-<head>
-<meta charset="utf-8">
-<title>aman</title>
-        <hr>
-        <b>
-            <i>
-                <u>
-             
-                </u>
-                
-            </i>
-        </b>
-    <h1>amanka ka comeback ho chuka hai</h1>
-    <h2>inpotance ghattha jayaga</h2>
-    <h3>inpotance ghattha jayaga</h3>
-    <h4>inpotance ghattha jayaga</h4>
-    <h5>inpotance ghattha jayaga</h5>
-    <h6>inpotance ghattha jayaga</h6>
-    <br>
-    <hr>
-           <plorem accesskey="aman"</plorem30>
-                    <a href="https://youtube.com/@affordableeducationforall?si=h0zo7e3Gsf2GgZ7h">this is python link</a>
-    <!-- web link dalnai ke liye </-->
-    <br>
-    <!--  ye tag line change karta hai </-->
-    <hr>
-    <img src="https://youtube.com/@affordableeducationforall?si=h0zo7e3Gsf2GgZ7h" alt="this is web image" ></img>   
-    <hr>
-    <p>H<sub>2</sub>+o··&rarr;H<sub>2</sub>o</p>
-    <pre>
-    digsutsgdigdiiisigdoo 
-    .ttsoofkkcohcocou.e9d999
-    .oouf999f70,
-        </pre>
+<!doctype html>
+  <html>
+  <head>
+    <meta charset="utf-1">
+    <meta name="viewport" content="width=device-width,initial-scale=3">
+<title> first Calculator</title>
+<style>body{font-family:Arial;display:flex;justify-content:center;margin-top:40px} .calc{width:260px} input{width:100%;font-size:22px;padding:8px;margin-bottom:8px}</style>
 </head>
-        </html>
+  <body>
+<div class="calc">
+  <input id="display" readonly>
+  
+  <div>
     
-</!dochtml>
+    <button onclick="press('7')">7</button><button onclick="press('8')">8</button><button onclick="press('9')">9</button><button onclick="press('/')">/</button><br>
+    <button onclick="press('4')">4</button><button onclick="press('5')">5</button><button onclick="press('6')">6</button><button onclick="press('*')">*</button><br>
+    <button onclick="press('1')">1</button><button onclick="press('2')">2</button><button onclick="press('3')">3</button><button onclick="press('-')">-</button><br>
+    <button onclick="press('0')">0</button><button onclick="press('.')">.</button><button onclick="eq()">=</button><button onclick="press('+')">+</button><br>
+    <button onclick="press('%')">%</button>
+    <button onclick="clr()">Clear</button>
+  </div>
+</div>
+<script>
+const d=document.getElementById('display'); function press(v){d.value+=v} function clr(){d.value=''} function eq(){try{d.value=eval(d.value)}catch(e){d.value='Error'}}
+</script>
+</body></html>
